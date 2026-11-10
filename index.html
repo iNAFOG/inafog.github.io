@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prasoon Manglam · ML Researcher</title>
+<meta name="description" content="Prasoon Manglam: B.Tech AI &amp; Data Science student and ML research intern at IIT Delhi working on fairness in medical imaging and LLM inference.">
+<style>
+:root{
+  --bg:#0b0c0e;--fg:#e6e8eb;--muted:#8b9096;--card:#141619;--line:#26292d;--accent:#22d3ee;--accent2:#22d3ee;--chip:#1b1e22;
+  --display:"Iowan Old Style","Palatino Linotype",Georgia,serif;--body:system-ui,-apple-system,"Segoe UI",sans-serif;--mono:ui-monospace,"Cascadia Code",Consolas,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 var(--body)}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:880px;margin:0 auto;padding:0 20px}
+header.top{position:sticky;top:0;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:5}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;padding-block:12px}
+.logo{font:700 1.05rem var(--display);color:var(--fg)}
+nav{display:flex;gap:16px;font-size:.92rem;overflow-x:auto}
+nav a{color:var(--muted);white-space:nowrap}
+nav a:hover{color:var(--fg);text-decoration:none}
+.hero{padding:72px 0 40px}
+.eyebrow{font:500 .78rem var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent2)}
+h1{font:700 clamp(2.4rem,7vw,4rem)/1.05 var(--display);margin:10px 0 16px;letter-spacing:-.01em}
+.lead{font-size:1.2rem;color:var(--muted);max-width:60ch;margin:0}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.btn{display:inline-block;padding:9px 16px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--fg);font-weight:600;font-size:.95rem}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#06161a}
+.btn:hover{text-decoration:none;transform:translateY(-1px)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:40px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.stat b{display:block;font:700 1.7rem var(--display);color:var(--accent)}
+.stat span{font-size:.88rem;color:var(--muted)}
+section{padding:44px 0;border-top:1px solid var(--line)}
+h2{font:700 1.7rem var(--display);margin:0 0 20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;margin-bottom:16px}
+.card h3{margin:0;font-size:1.12rem}
+.meta{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;color:var(--muted);font-size:.9rem;margin:2px 0 10px}
+.card ul{margin:8px 0 0;padding-left:20px}
+.card li{margin:6px 0}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}
+.tags span{background:var(--chip);border-radius:999px;padding:2px 10px;font:500 .78rem var(--mono)}
+.pill{display:inline-block;font:600 .75rem var(--mono);background:color-mix(in srgb,var(--accent2) 16%,transparent);color:var(--accent2);padding:2px 9px;border-radius:999px;margin-right:6px}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+.skills .card{margin:0}
+.skills h3{font-size:.8rem;font-family:var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--accent2);margin-bottom:6px}
+footer{padding:36px 0 56px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:560px){.hero{padding-top:44px}}
+</style>
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+<a class="logo" href="#top">Prasoon Manglam</a>
+<nav aria-label="Sections"><a href="#research">Research</a><a href="#projects">Projects</a><a href="#achievements">Achievements</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<main id="top" class="wrap">
+
+<div class="hero">
+<p class="eyebrow">ML Research · New Delhi, India</p>
+<h1>I build fair, efficient machine learning systems.</h1>
+<p class="lead">B.Tech student in AI &amp; Data Science at GGSIPU and research intern at IIT Delhi. I work on fairness in medical imaging and on how LLM inference actually behaves on real hardware.</p>
+<div class="cta">
+<a class="btn primary" href="#research">See my research</a>
+<a class="btn" href="https://github.com/inafog">GitHub</a>
+<a class="btn" href="https://linkedin.com/in/inafxg">LinkedIn</a>
+</div>
+<div class="stats">
+<div class="stat"><b>#76</b><span>Amazon ML Challenge 2026, of 32,000+ teams</span></div>
+<div class="stat"><b>9.7 DPD</b><span>state-of-the-art fairness on PAPILA</span></div>
+<div class="stat"><b>5.67×</b><span>batching throughput gain in my inference engine</span></div>
+</div>
+</div>
+
+<section id="research">
+<h2>Research</h2>
+
+<article class="card">
+<h3>Machine Learning Research Intern · IIT Delhi</h3>
+<div class="meta"><span>DIAGNOSE: fairness-aware multi-teacher distillation for medical imaging</span><span>Sep 2025 – Present</span></div>
+<p><span class="pill">WiML @ NeurIPS 2026</span><span class="pill">Under review: IJMI</span></p>
+<ul>
+<li><b>Problem:</b> debiasing methods for medical image classifiers usually trade accuracy for fairness and are evaluated on a single dataset and a single sensitive attribute.</li>
+<li><b>Approach:</b> proposed and built DIAGNOSE, a multi-teacher knowledge distillation framework where one student learns both predictive performance and demographic impartiality.</li>
+<li><b>Results:</b> state-of-the-art fairness on PAPILA glaucoma detection (9.7 DPD, 27.0 EOD; lower is better) and 85.3 worst-group AUROC with a 2.2-point skin-type gap on Fitzpatrick17k, holding up in low-sample, class-imbalanced settings.</li>
+</ul>
+</article>
+
+<article class="card">
+<h3>Machine Learning Research Intern · IIT Delhi</h3>
+<div class="meta"><span>Bias auditing of medical image classifiers</span><span>Feb 2025 – May 2025</span></div>
+<ul>
+<li>Built a chest X-ray classification pipeline on MIMIC-CXR and audited it for demographic bias: 80.78% accuracy with fairness parity of 0.81 PQD and 0.80 DPM.</li>
+<li>Translated ISIC and CROCODILE skin-lesion fairness research into Sparse ViT and DenseNet-121 pipelines with GOT loss to improve generalisation across skin-tone subgroups, tracked with Weights &amp; Biases.</li>
+<li>The audits showed where existing methods fail on under-represented groups, which motivated DIAGNOSE.</li>
+</ul>
+</article>
+
+<article class="card">
+<h3>Publication</h3>
+<p style="margin:6px 0 0"><i>DIAGNOSE: Fairness-Aware Neural Distillation.</i> Poster, WiML @ NeurIPS 2026. Journal manuscript under review at the International Journal of Medical Informatics (IJMI), 2026.</p>
+</article>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+
+<article class="card">
+<h3>LLM Inference Engine</h3>
+<div class="meta"><span>Hand-written decode loop, KV cache and sampler</span><a href="https://github.com/iNAFOG/InferenceEngine">github.com/iNAFOG/InferenceEngine</a></div>
+<ul>
+<li>Autoregressive decode loop with a KV cache and its own temperature, top-k and top-p sampler. Output matches Hugging Face <code>generate()</code> token-for-token at equal throughput (32.6 vs 32.8 tokens/s).</li>
+<li>On Qwen2.5-0.5B with a GTX 1650: KV caching gives a <b>2.47×</b> decode speedup at 256 tokens, and batching raises throughput <b>5.67×</b> at batch size 8 (31 to 176 tokens/s).</li>
+<li>Single-request decode is bound by memory bandwidth and kernel-launch overhead, not compute: KV caching cuts tokens processed 131× but yields 2.47×, while batching scales almost linearly.</li>
+<li>Analytical memory model validated against measurement: 1,885 MiB predicted vs 1,894 MiB measured for FP32 weights (FP16: 942 vs 958 MiB).</li>
+<li>Batched decoding for variable-length prompts (left padding, attention masks, position ids) and UTF-8-safe NDJSON token streaming, verified by 28 pytest tests.</li>
+</ul>
+<div class="tags"><span>Python</span><span>PyTorch</span><span>Hugging Face</span><span>FastAPI</span></div>
+</article>
+
+<article class="card">
+<h3>DIAGNOSE: Fairness-Aware Neural Distillation</h3>
+<div class="meta"><span>Multi-teacher distillation for fair medical imaging</span><a href="https://github.com/iNAFOG/DIAGNOSE">github.com/iNAFOG/DIAGNOSE</a></div>
+<ul>
+<li>Designed and implemented the full multi-teacher distillation framework: one student learns predictive performance and demographic impartiality from several teachers.</li>
+<li>Custom distillation loss with group-aware standardisation that targets worst-group performance. The student keeps the inference cost of a single standard model.</li>
+<li>Shared training and evaluation pipeline over 5+ clinical datasets (PAPILA, CheXpert, Fitzpatrick17k, OASIS), reporting DPD, EOD and worst-group AUROC by age, sex and skin type.</li>
+</ul>
+<div class="tags"><span>Python</span><span>PyTorch</span></div>
+</article>
+</section>
+
+<section id="achievements">
+<h2>Achievements</h2>
+<div class="card">
+<ul style="margin:0">
+<li><b>Amazon ML Challenge 2026:</b> ranked 76 of 32,000+ teams (top 0.24%).</li>
+<li><b>Amazon ML Challenge 2025:</b> ranked 492 of 23,000+ teams (top 2.1%).</li>
+</ul>
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<div class="card"><h3>Languages</h3>Python, C++, CUDA C++</div>
+<div class="card"><h3>ML</h3>PyTorch, Hugging Face Transformers, scikit-learn, TensorFlow</div>
+<div class="card"><h3>Research methods</h3>Fairness evaluation and bias auditing, knowledge distillation, vision models (ViT, CNN), LLM inference (KV cache, batching, sampling)</div>
+<div class="card"><h3>Systems &amp; tools</h3>FastAPI, Triton, vLLM, torch.compile, NVIDIA Nsight, Weights &amp; Biases, pytest, Docker, Git, Linux</div>
+</div>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+<div class="card">
+<h3>B.Tech, Artificial Intelligence and Data Science</h3>
+<div class="meta"><span>University School of Automation and Robotics, GGSIPU, New Delhi</span><span>Sep 2023 – Jul 2027</span></div>
+CGPA 8.0 / 10
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<div class="card">
+<p style="margin-top:0">Open to research collaborations and ML roles. The easiest way to reach me is email.</p>
+<div class="cta" style="margin-top:12px">
+<a class="btn primary" href="mailto:prasoonmanglam1@gmail.com">prasoonmanglam1@gmail.com</a>
+<a class="btn" href="https://linkedin.com/in/inafxg">LinkedIn</a>
+<a class="btn" href="https://github.com/inafog">GitHub</a>
+</div>
+</div>
+</section>
+
+</main>
+
+<footer><div class="wrap">© 2026 Prasoon Manglam · New Delhi, India</div></footer>
+</body>
+</html>
